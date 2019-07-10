@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Table align</title>
+</head>
+<body>
+    <table style="width:50%;" border="1">
+        <tr>
+            <th>Month</th>
+            <th>Savings</th>
+        </tr>
+        <tbody valign="middle">
+        <!--수직 속성 valign은 테이블 셀인 td에서 사용 가능, 테이블 자체가 아닌 셀에서 사용
+        / 수평 속성인 align은 테이블을 수평으로 정렬-->
+            <tr style="height: 50px">
+                <td align="center">January</td>
+                <td>$100</td>
+            </tr>
+            <tr style="height: 50px">
+                <td align="center">February</td>
+                <td>$80</td>
+            </tr>
+        </tbody>
+        <!--tbody는 표의 안쪽을 그룹화하여 속성 지정 여러개 존재 가능,
+        /thead 표 머릿글, tfoot 바닥글 단 하나씩만 존재 가능-->
+    </table>
+
+</body>
+</html>
