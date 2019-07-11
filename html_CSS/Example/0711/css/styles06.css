@@ -1,0 +1,23 @@
+    .p {
+        font-size: 20px;
+        font-style: italic;
+    }
+    
+    .one {
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    
+    div.two {
+        padding: 10px;
+        border: 5px solid gray;
+        margin: 0;
+    }
+    
+    div.three {
+        float: right;
+        width: 350px;
+        height: 263px;
+    }
