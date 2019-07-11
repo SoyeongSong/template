@@ -1,1 +1,24 @@
-h2{color:yellow};
+.blue{
+    background-color: dodgerblue;
+}
+.green{
+    color:mediumseagreen;
+}
+.solidviolet{
+    border:2px solid violet;
+}
+.fff{
+    background-color:#ff6347;
+}
+.rgba{
+    background-color:rgba(248, 151, 134, 0.5);
+}
+.hsla{
+    background-color:hsla(9,100%,64%,0.5);
+}
+
+body {
+    background-image: url("./images/img_tree.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    }
