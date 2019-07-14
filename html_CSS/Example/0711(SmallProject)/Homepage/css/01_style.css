@@ -1,15 +1,21 @@
+
+* {
+    box-sizing: border-box;
+}
+
+/* Head */
 div.title {
     border: 30px;
     border-radius: 6px;
     background-color: green;
     color: white;
     font: bold;
-    margin: 0;
     padding: 20px;
 }
 
 div.title>h1 {
     margin: 0;
+   
 }
 
 div.title>h1>a {
@@ -20,12 +26,13 @@ div.font {
     font-size: small;
 }
 
-* {
-    box-sizing: border-box;
-}
 
+/*body*/
 .row {
-    display: inline;
+    width: 100%;
+    height: 100%;
+    float: left;
+    margin-bottom: 20px;
 }
 
 .column {
@@ -35,36 +42,45 @@ div.font {
 }
 
 .column.side {
-    width: 25%;
+    width: 20%;
 }
 
 .column.middle {
-    width: 50%;
+    width: 60%;
 }
 
 ul {
-    width: 150px;
+    width: 100%;
     list-style-type: none;
-    font-size: 20px;
-    margin: 0px;
     padding: 0px;
+    margin: 10px 10px 0px 0px;
+
 }
 
 ul li {
+    padding:10px;
     border-radius: 6px;
     background-color: lightgray;
     margin-bottom: 5px;
-    padding: 100%;
+    font-size: 18px;
+
 }
 
-ul li a {
+ul li a{
     text-decoration: none;
     color: #000;
+    display: block;
 }
 
 ul li:hover {
     background: green;
+    color:white; /*왜 적용 안될까*/
+    font-weight: bold;
 }
+
+
+
+
 
 table {
     border-collapse: collapse;
@@ -93,8 +109,12 @@ div.Side-Bar {
     border-radius: 6px;
     color: white;
     font: medium bold;
+    height: 100%;
     padding-left: 10px;
+    padding-bottom:100%;
     margin-bottom: 5px;
+    /*왜 100%가 내려오지 않을까*/
+
 }
 
 div.Side-Bar>p {
@@ -103,9 +123,12 @@ div.Side-Bar>p {
 
 .Footer {
     width: 100%;
-    border: 2px solid grey;
+    border: 1px solid grey;
     border-radius: 6px;
     background-color: lightgray;
+    padding: 10px 5px;
+    text-align: center;
     font-size: x-small;
     color: black;
+    clear: both; 
 }
