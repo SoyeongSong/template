@@ -1,3 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family:Sans-Serif;
+    width:100%;
+    height:100%;
+    margin:5px;
+    padding:2%;
+    border: 0.5px solid grey;
+}
+
+.allbody h1, h2, h3{
+    margin:0;
+    font-weight:bold;
+    color:green;
+}
+
+.head a{
+    color:black;
+}
+
+
+.bodypart{
+    width:100%;
+    height:100%;
+}
+
+.sheetlist{
+    overflow: hidden;
+}
+
+.sheetlist ul{
+    list-style:none;
+    padding :0;
+    width:100%;
+}
+
+.sheetlist ul li{
+    background-color: gray;
+    column-span: all;
+    display:inline-block;
+    padding : 5px;
+
+}
+/*
 div.nav {
     overflow: hidden;
 }
@@ -24,3 +72,4 @@ div.nav a {
     padding: 10px 5px;
     text-decoration: none;
 }
+*/
