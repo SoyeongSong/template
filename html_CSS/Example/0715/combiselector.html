@@ -7,30 +7,40 @@
         * {
             box-sizing: border-box;
         }
-        
+        /*
         div p {
             background-color: yellow;
         }
-        /*
+        
         div>p {
             background-color: magenta;
         }
         동시 적용할 경우 Child Selector가 먼저 적용됨*/
+        
+        div~p {
+            background-color: yellow;
+        }
     </style>
 </head>
 
 <body>
 
-
-    <div class="index">
+    <!-- 
+    <div>
         <div>
 
             <p> Paragraph 1 in the div</p>
-            <p> Paragraph 1 in the div</p>
-            <section>
-                <p> Paragraph 3 in the div</p>
-            </section>
+            <p> Paragraph 2 in the div</p>
         </div>
+
+        <p> Paragraph 3 Not ins a div</p>
+        <p> Paragraph 4 Not ins a div</p> -->
+    <div>
+        <p> Paragraph 2</p>
+    </div>
+    <p> Paragraph 3</p>
+    <code>Some code</code>
+    <p> Paragraph 4</p>
 
 </body>
 
