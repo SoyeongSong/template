@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Combinator Selector</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        div p {
+            background-color: yellow;
+        }
+        /*
+        div>p {
+            background-color: magenta;
+        }
+        동시 적용할 경우 Child Selector가 먼저 적용됨*/
+    </style>
+</head>
+
+<body>
+
+
+    <div class="index">
+        <div>
+
+            <p> Paragraph 1 in the div</p>
+            <p> Paragraph 1 in the div</p>
+            <section>
+                <p> Paragraph 3 in the div</p>
+            </section>
+        </div>
+
+</body>
+
+</html>
