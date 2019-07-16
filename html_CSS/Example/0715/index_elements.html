@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>indexelements</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        .index {
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="index">
+        <div>
+            <form action="/index.html" method="get">
+                <div>
+                    <input type="text" name="firstname" value="John" Disabled>
+                    <input type="password" name="psw" readonly>
+                    <!--Disabled와 Readonly 비교-->
+                </div>
+                <div>
+                    <select name="cars" size="3" multiple>
+                        <!--3 항목 동시표출 -->
+                        <option value="volvo">Volvo</option>
+                        <option value="audi">Audi</option>
+                        <option value="cooper">Cooper</option>
+                        <option value="nissan">Nissan</option>
+                        <option value="Benz">Bentz</option>
+        
+                    </select>
+                </div>
+                <div>
+                    <input type="radio" name="gender" value="male" checked> Male
+                    <input type="radio" name="gender" value="female"> Female
+                    <input type="checkbox" name="vehicle1" value="Bike"> I have a bike
+                    <input type="checkbox" name="vehicle2" value="Car"> I have a car
+                </div>
+                <textarea name="message" row="10" coles="30">Sample.</textarea>
+                <button type="button" onclick="alert('Hello World!')">Click!</button>
+                <input type="submit" value="submit"><input type="reset">
+            </form>
+
+
+            <!--form 와 submit 순서를 변경 할 경우 데이터가 넘어가지 않아 동작정지-->
+        </div>
+
+</body>
+
+</html>
